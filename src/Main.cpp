@@ -46,6 +46,8 @@ int main(void) {
 
     //model->setMaterialType((video::E_MATERIAL_TYPE)toonMaterialType);
 
+    std::cout << "Test réussi" << std::endl;
+
 
 //---------------------------------------------------------------------------------------------------------------------
 //  Boucle principale
