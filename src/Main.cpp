@@ -44,11 +44,7 @@ int main(void) {
 //  Initialisation du contenu
 //---------------------------------------------------------------------------------------------------------------------
 
-    scene::IAnimatedMeshSceneNode *model = sceneManager->addAnimatedMeshSceneNode(sceneManager->getMesh("sydney.md2"), 0, -1, core::vector3df(0.0f, 0.0f, 100.0f));
-    model->setMD2Animation(scene::EMAT_STAND);
-    model->setMaterialFlag(video::EMF_LIGHTING, false);
-    model->setMaterialTexture(0, driver->getTexture("sydney.bmp"));
-    model->setMaterialType((video::E_MATERIAL_TYPE)toonMaterialType);
+    //model->setMaterialType((video::E_MATERIAL_TYPE)toonMaterialType);
 
 
 //---------------------------------------------------------------------------------------------------------------------
